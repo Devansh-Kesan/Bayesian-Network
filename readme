@@ -1,0 +1,15 @@
+Bayesian Network and Inference Algorithms
+
+This Python script provides functionalities to work with Bayesian Networks and perform inference using two methods: Variable Elimination and Rejection Sampling.
+
+You can use this script to read Bayesian network specifications and queries from files and compute probabilities based on those queries.
+
+To run the script, provide the Bayesian network file path and the query file path as command line arguments.
+
+python3 bayesian_inference.py <bayesian_network_file> <query_file>
+
+For Example :
+python3 bayesian_inference.py b1.txt q1.txt
+
+Note :
+The query file and bayesian network file should be in the same directory as of bayesian_inference.py
